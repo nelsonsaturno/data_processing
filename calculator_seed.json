@@ -1,0 +1,166 @@
+[
+{
+    "model": "calculator.security",
+    "pk": 1,
+    "fields": {
+        "name": "security1",
+        "weight": 10.0
+    }
+},
+{
+    "model": "calculator.security",
+    "pk": 2,
+    "fields": {
+        "name": "security2",
+        "weight": 10.0
+    }
+},
+{
+    "model": "calculator.security",
+    "pk": 3,
+    "fields": {
+        "name": "security3",
+        "weight": 10.0
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 22,
+    "fields": {
+        "security": 1,
+        "price": 4.0,
+        "registered": "2018-06-24T23:42:59"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 23,
+    "fields": {
+        "security": 2,
+        "price": 5.2,
+        "registered": "2018-06-24T23:43:13"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 24,
+    "fields": {
+        "security": 3,
+        "price": 7.0,
+        "registered": "2018-06-24T23:43:28"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 49,
+    "fields": {
+        "security": 1,
+        "price": 5.0,
+        "registered": "2018-06-25T00:06:00"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 50,
+    "fields": {
+        "security": 2,
+        "price": 8.0,
+        "registered": "2018-06-25T00:06:00"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 51,
+    "fields": {
+        "security": 3,
+        "price": 7.0,
+        "registered": "2018-06-25T00:06:00"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 52,
+    "fields": {
+        "security": 1,
+        "price": 6.0,
+        "registered": "2018-06-26T00:15:10.345"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 53,
+    "fields": {
+        "security": 2,
+        "price": 8.3,
+        "registered": "2018-06-26T00:15:10.345"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 54,
+    "fields": {
+        "security": 3,
+        "price": 7.6,
+        "registered": "2018-06-26T00:15:10.345"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 55,
+    "fields": {
+        "security": 1,
+        "price": 5.0,
+        "registered": "2018-06-26T00:15:54.013"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 56,
+    "fields": {
+        "security": 2,
+        "price": 8.32,
+        "registered": "2018-06-26T00:15:54.013"
+    }
+},
+{
+    "model": "calculator.securityprice",
+    "pk": 57,
+    "fields": {
+        "security": 3,
+        "price": 7.61,
+        "registered": "2018-06-26T00:15:54.013"
+    }
+},
+{
+    "model": "calculator.syntheticindex",
+    "pk": 2,
+    "fields": {
+        "calculated": "2018-06-24T20:42:13",
+        "price": 100.0
+    }
+},
+{
+    "model": "calculator.syntheticindex",
+    "pk": 3,
+    "fields": {
+        "calculated": "2018-06-25T00:06:00",
+        "price": 888.461538461538
+    }
+},
+{
+    "model": "calculator.syntheticindex",
+    "pk": 4,
+    "fields": {
+        "calculated": "2018-06-26T00:15:10.345",
+        "price": 3760.09615384615
+    }
+},
+{
+    "model": "calculator.syntheticindex",
+    "pk": 5,
+    "fields": {
+        "calculated": "2018-06-26T00:15:54.013",
+        "price": 2018.07692307692
+    }
+}
+]
