@@ -5,6 +5,9 @@ from .models import SyntheticIndex
 
 
 class GetIndexPrices(APIView):
+    """
+    API service to get all the index prices by date
+    """
     renderer_classes = (JSONRenderer, )
 
     def get(self, request, format=None):

@@ -7,8 +7,10 @@ def return_of_security(last, prev):
 
 
 def calculate_index(timestamp):
+    # Get the DateTime when new prices were registered
     now = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S.%f")
     last_prices = SecurityPrice.objects.filter(registered=now).order_by('security')
+    # Assuming the Security prices will be updated each day
     prev_prices = SecurityPrice.objects.filter(
         registered__contains=now.date() - timedelta(days=1)
     ).order_by('security', '-registered').distinct('security')
@@ -20,6 +22,7 @@ def calculate_index(timestamp):
     except IndexError:
         raise("There is an inconsistence with the security prices.")
     try:
+        # Assuming the DB will have the index price per day
         prev_index = SyntheticIndex.objects.filter(
             calculated__contains=now.date() - timedelta(days=1)
         ).order_by('-calculated')[0]
